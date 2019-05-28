@@ -1,7 +1,4 @@
-resolver: lts-13.22
-
-packages:
-  - .
+resolver: lts-13.23
 
 extra-deps:
   # --- Missing from Stackage --- #
@@ -19,9 +16,9 @@ extra-deps:
   - yet-another-logger-0.3.1
 
   # --- Forced Dependencies --- #
-  - megaparsec-6.5.0
-  - neat-interpolation-0.3.2.2  # Due to megaparsec 7
-  - sbv-8.2
+  - megaparsec-6.5.0  # Due to Pact
+  - neat-interpolation-0.3.2.2  # Due to megaparsec 6.5
+  - sbv-8.2  # Due to Pact
 
   # --- Forced Upgrades --- #
   - aeson-1.4.3.0
