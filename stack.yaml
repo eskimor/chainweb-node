@@ -26,6 +26,10 @@ extra-deps:
   # --- Forced Upgrades --- #
   - aeson-1.4.3.0
   - massiv-0.3.2.0
+  - servant-0.16.0.1
+  - servant-server-0.16
+  - servant-client-0.16
+  - servant-client-core-0.16
 
   # --- Custom Pins --- #
   - git: https://github.com/kadena-io/pact.git
